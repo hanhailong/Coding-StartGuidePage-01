@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,9 +21,13 @@
     //初始化UIWindow
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    self.window.rootViewController = [ViewController new];
     
     //作为主视图并显示出来
     [self.window makeKeyAndVisible];
+    
+    //启动刚开始的动画
+    
     
     return YES;
 }

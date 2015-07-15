@@ -13,6 +13,8 @@
 		DF5518081B56B26E009C9D87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF5518071B56B26E009C9D87 /* Images.xcassets */; };
 		DF55180B1B56B26E009C9D87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF5518091B56B26E009C9D87 /* LaunchScreen.xib */; };
 		DF5518171B56B26E009C9D87 /* Coding_StartGuidePage_01Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF5518161B56B26E009C9D87 /* Coding_StartGuidePage_01Tests.m */; };
+		DF5518211B56C02D009C9D87 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DF5518201B56C02D009C9D87 /* images */; };
+		DF5518231B56C391009C9D87 /* views in Resources */ = {isa = PBXBuildFile; fileRef = DF5518221B56C391009C9D87 /* views */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		DF5518101B56B26E009C9D87 /* Coding-StartGuidePage-01Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding-StartGuidePage-01Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF5518151B56B26E009C9D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF5518161B56B26E009C9D87 /* Coding_StartGuidePage_01Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coding_StartGuidePage_01Tests.m; sourceTree = "<group>"; };
+		DF5518201B56C02D009C9D87 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		DF5518221B56C391009C9D87 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		DF5517F91B56B26E009C9D87 /* Coding-StartGuidePage-01 */ = {
 			isa = PBXGroup;
 			children = (
+				DF5518221B56C391009C9D87 /* views */,
+				DF5518201B56C02D009C9D87 /* images */,
 				DF5517FE1B56B26E009C9D87 /* AppDelegate.h */,
 				DF5517FF1B56B26E009C9D87 /* AppDelegate.m */,
 				DF5518011B56B26E009C9D87 /* ViewController.h */,
@@ -196,8 +202,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5518211B56C02D009C9D87 /* images in Resources */,
 				DF55180B1B56B26E009C9D87 /* LaunchScreen.xib in Resources */,
 				DF5518081B56B26E009C9D87 /* Images.xcassets in Resources */,
+				DF5518231B56C391009C9D87 /* views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Coding-StartGuidePage-01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -345,6 +354,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "Coding-StartGuidePage-01/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -404,6 +414,7 @@
 				DF55181C1B56B26E009C9D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF55181D1B56B26E009C9D87 /* Build configuration list for PBXNativeTarget "Coding-StartGuidePage-01Tests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +423,7 @@
 				DF55181F1B56B26E009C9D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
