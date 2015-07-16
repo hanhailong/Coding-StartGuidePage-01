@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "GuideViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,7 +21,7 @@
     //初始化UIWindow
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.window.rootViewController = [ViewController new];
+    self.window.rootViewController = [GuideViewController new];
     
     //作为主视图并显示出来
     [self.window makeKeyAndVisible];

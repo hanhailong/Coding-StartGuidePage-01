@@ -4,6 +4,7 @@
 target 'Coding-StartGuidePage-01' do
 
 pod 'JazzHands', '~> 2.0.2'
+pod 'SMPageControl', '~> 1.2'
 
 end
 
