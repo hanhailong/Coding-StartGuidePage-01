@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "GuideViewController.h"
+#import "EaseStartView.h"
+#import "IcarouselViewController.h"
 
 @interface AppDelegate ()
 
@@ -21,13 +23,17 @@
     //初始化UIWindow
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.window.rootViewController = [GuideViewController new];
+    self.window.rootViewController = [IcarouselViewController new];
     
     //作为主视图并显示出来
     [self.window makeKeyAndVisible];
     
     //启动刚开始的动画
-    
+    EaseStartView *startView = [EaseStartView startView];
+    [startView startAnimationWithCompletionBlock:^(EaseStartView *startView) {
+        //TODO
+        
+    }];
     
     return YES;
 }
